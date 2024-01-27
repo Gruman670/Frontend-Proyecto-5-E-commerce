@@ -1,0 +1,34 @@
+.custom-carousel {
+    padding: 25px;
+}
+.card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.card-img-prod {
+    width: 100%;
+    height: 60vh;
+}
+.info {
+    padding: 15px; 
+    color: #275E63;
+    height: 120px
+}
+.info h6 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.info p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #275E63 !important;
+}

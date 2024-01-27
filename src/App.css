@@ -1,0 +1,708 @@
+* {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+body {
+    background-color: #EEEEE7;
+    color: #275E63;
+
+}
+/*NAVBAR*/
+header {
+    background-color: #AAD2BA;
+    padding: 0 50px;
+}
+header img {
+    width: 90px;
+}
+header a {
+    text-transform: uppercase;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header .btn-outline-primary {
+    border: #275E63 1px solid;
+    color: #275E63;
+    text-transform: uppercase;
+}
+header .btn-outline-primary:hover {
+    background-color: #275E63;
+    border: #275E63 1px solid;
+    color: #FFFFFF;
+}
+/*FOOTER*/
+footer {
+    color: #275E63;
+    background-color: #AAD2BA;
+    padding: 35px;
+}
+footer img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+footer h6 {
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+footer hr {
+    margin: 25px;
+}
+footer a {
+    color: #275E63;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #081516;
+}
+footer .copy {
+    margin-top: 20px;
+    font-size: 14px;
+}
+/*--------------------------------------------------------*/
+/*ERROR*/
+.error-page {
+    padding: 100px;
+    color: #275E63;
+}
+.error-page h1 {
+    font-size: 76px;
+}
+.error-page h3 {
+    font-size: 56px;
+}
+.error-page hr {
+    margin: 50px;
+}
+.error-page h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.error-page button {
+    margin: 30px;
+    width: 15%;
+    border: #275E63 1px solid;
+    color: #275E63;
+}
+.error-page button:hover {
+    background-color: #275E63;
+    border: #275E63 1px solid;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+.error-page button:focus{
+    background-color: #275E63;
+    border: #275E63  1px solid;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+}
+/*--------------------------------------------------------*/
+/*WELOCOME CAROUSEL*/
+.welcome .carousel-inner img {
+    width: 100%;
+    height: 80vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+} 
+.welcome .carousel-caption {
+    top: 40%;
+    bottom: auto;
+    text-align: left;
+}
+.welcome .carousel-caption h1 {
+    color: #222222;
+    font-size: 46px;
+    font-weight: 900;
+    text-align: left;
+}
+.welcome .carousel-caption h5 {
+    color: #222222;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+}
+.welcome .carousel-caption .btn-primary {
+    background-color: #275E63   ;
+    width: 10%;
+    border: #275E63 1px solid;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.welcome .carousel-caption .btn-primary:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4)
+}
+/*CATEGORIES*/
+.categories {
+    padding: 30px 180px;
+    color: #275E63;
+}
+.categories h2 {
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.categories img {
+    width: 20%;
+    margin-bottom: 10px;
+}
+.categories a {
+    text-decoration: none;
+    color: #275E63;
+    text-transform: uppercase;
+}
+.categories a:hover {
+    text-decoration: underline;
+}
+.categories h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+/*DESTACADOS*/
+.destacados {
+    padding: 25px 100px;
+    color: #275E63;
+}
+.destacados h2 {
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.destacados a {
+    text-decoration: none;
+}
+.destacados .custom-carousel-mobile {
+    display: none;
+}
+.destacados .btn-outline-primary {
+    margin-top: 10px;
+    border-color: #275E63;
+    color: #275E63;
+}
+.destacados .btn-outline-primary:hover {
+    color: #FFFFFF;
+    background-color: #275E63;
+    border-color: #275E63;
+}
+/*ABOUT*/
+.about {
+    padding: 50px;
+    background-color: #AAD2BA;
+    color: #275E63;
+}
+.about img {
+    width: 35vw;
+}
+.about .info {
+    text-align: left;
+}
+.about h2 {
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.about p {
+    font-weight: medium;
+    text-align: left;
+}
+/*SERVICES*/
+.services {
+    margin-top: 10px;
+    padding: 40px 60px;
+    color: #275E63;
+}
+.services img {
+    height: 5vw;
+}
+.services h5 {
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+}
+.services p {
+    font-weight: medium;
+    text-align: left;
+}
+/*NEWSLETTER*/
+.newsletter .card-title {
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.newsletter .card img{
+    height: 30vh;
+    border-radius: 0;
+}
+.newsletter .card {
+    border-radius: 0;
+    border: 0;
+}
+.newsletter .card-img-overlay {
+    padding: 5vh;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+.newsletter .form-control {
+    text-align: left;
+}
+.newsletter .form-control::placeholder {
+    text-align: left;
+}
+.newsletter .btn-outline-secondary {
+    background-color: #AAD2BA;
+    border: #275E63 1px solid;
+    color: #275E63;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 10%;
+}
+.newsletter .btn-outline-secondary:hover {
+    background-color: #275E63;
+    border: #275E63 1px solid;
+    color: #FFFFFF
+}
+/*--------------------------------------------------------*/
+/*LOGIN / REGISTER*/
+/*FORM*/
+.form-register {
+    text-align: left;
+}
+.form-register .mb-3  {
+    color: #275E63;
+    text-align: left;
+}
+.form-register input {
+    text-align: left;
+    border: #275E63 1 px solid;
+}
+.form-register .mb-3 input::placeholder  {
+    text-align: left;
+}
+.form-register .btn-primary {
+    background-color: #275E63;
+    border: #275E63 1px solid;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 25%;
+}
+.form-register .btn-primary:hover {
+    border: rgb(15, 63, 66) 1px solid;
+    background-color: rgb(15, 63, 66);
+}
+/*LOGIN*/
+.login img {
+    width: 100%;
+    height: 100%;
+}
+.login .login-img {
+    padding: 0;
+}
+.login h2 {
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #275E63;
+    margin-bottom: 20px;
+}
+.login button {
+    width: 30%;
+}
+.login .btn-outline-secondary {
+    border: #275E63 1px solid;
+    color: #275E63;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.login .btn-outline-secondary:hover {
+    background-color: #275E63;
+    color: #FFFFFF;
+}
+.login .auth-side {
+    padding: 50px;
+}
+.login .auth-side .card {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+/*--------------------------------------------------------*/
+/*PROFILE*/
+.profile {
+    padding: 50px;
+}
+.profile h4 {
+    color: #275E63;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.profile .card {
+    width: 40vw;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.profile .card-title {
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.profile .card-subtitle {
+    margin-bottom: 30px;
+}
+.profile .btn-primary {
+    background-color: #275E63;
+    border: #275E63 1px solid;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.profile .btn-primary:hover {
+    border: rgb(15, 63, 66) 1px solid;
+    background-color: rgb(15, 63, 66);
+}
+.profile .btn-outline-warning {
+    border: #666666 1px solid;
+    color: #666666;
+    text-transform: uppercase;
+}
+.profile .btn-outline-warning:hover {
+    border: #666666 1px solid;
+    background-color: #666666;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+/* EDITAR FORM */
+.profile h5 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #275E63;
+    text-transform: uppercase;
+}
+.profile .mb-3 {
+    color: #275E63;
+    text-align: left;
+}
+.profile input {
+    text-align: left;
+}
+.profile .input-id {
+    display: none;
+}
+.profile .btn-save {
+    width: 20%;
+}
+.profile form {
+    margin-bottom: 20px;
+}
+.profile .btn-outline-secondary {
+    border: #275E63 1px solid;
+    color: #275E63;
+    text-transform: uppercase;
+}
+.profile .btn-outline-secondary:hover {
+    color: #FFFFFF;
+    background-color: #275E63;
+}
+/* MODAL */
+.modal-footer .btn-primary {
+    background-color: #275E63;
+    border: #275E63 1px solid;
+}
+.modal-footer .btn-primary:hover {
+    border: rgb(15, 63, 66) 1px solid;
+    background-color: rgb(15, 63, 66);
+}
+/*--------------------------------------------------------*/
+/* CATALOGO */
+.catalogo {
+    padding: 50px;
+}
+.catalogo h2 {
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #275E63;
+    margin-bottom: 20px;
+}
+/* LINKS CAT */
+.catalogo h4 {
+    color: #275E63;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.catalogo .btn-outline-primary {
+    text-decoration: none;
+    border-color:#275E63;
+    color: #275E63;
+    width: 100%;
+    border-radius: 0;
+}
+.catalogo .btn-outline-primary:hover {
+    text-decoration: none;
+    border-color:#275E63;
+    color: #FFFFFF;
+    background-color: #275E63;
+}
+.catalogo .first {
+    border-radius: 5px 5px 0 0;
+}
+.catalogo .last {
+    border-radius: 0 0 5px 5px;
+}
+.catalogo .category{
+    width: 100%;
+}
+.catalogo .btn-group-vertical {
+    width: 80%;
+}
+/* PRODS */
+.catalogo a {
+    text-decoration: none;
+}
+.catalogo .card {
+    width: 340px;
+    height: 98%;
+    margin: 5px;
+}
+.catalogo .card img{
+    height: 420px;
+}
+.catalogo .card-title {
+    text-transform: uppercase;
+    color: #275E63;
+    font-size: 24px;
+}
+.catalogo .card-footer {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border: 0;
+}
+/*--------------------------------------------------------*/
+/* PRODUCTO */
+.product {
+    padding: 50px;
+}
+.product a {
+    text-decoration: none;
+    color: #275E63;
+}
+.product  a:hover {
+    text-decoration: underline;
+}
+.product img {
+    width: 100%;
+}
+.product h2 {
+    font-size: 46px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #275E63;
+    text-align: left;
+}
+.product p {
+    text-align: left;
+    font-size: 17px;
+}
+.product h4 {
+    text-align: left;
+    font-size: 28px;
+}
+.product h5{
+    text-align: left;
+    font-size: 28px;
+    font-weight: 500;
+    color: #275E63;
+    text-transform: uppercase;
+}
+.product .btn-wrap {
+    text-align: left;
+}
+.product .btn {
+    width: 50%;
+    background-color: #275E63;
+    border-color: #275E63;
+    text-transform: uppercase;
+}
+.product .btn:hover {
+    border: rgb(15, 63, 66) 1px solid;
+    background-color: rgb(15, 63, 66);
+}
+/*--------------------------------------------------------*/
+/* CONTACT */
+.contact {
+    padding: 25px;
+}
+.contact .card {
+    margin: 5px;
+}
+.contact .card-header {
+    text-transform: uppercase;
+    color: #275E63;
+    font-size: 24px;
+    font-weight: 500;
+    width: 100%;
+}
+.contact .mb-3 {
+    text-align: left;
+}
+.contact label {
+    font-weight: 500;
+    color: #275E63;
+}
+.contact input {
+    text-align: left;
+}
+.contact textarea {
+    text-align: left;
+}
+.contact .btn-primary {
+    width: 30%;
+    background-color: #275E63;
+    border-color: #275E63;
+    text-transform: uppercase;
+}
+.contact .btn-primary:hover {
+    border: rgb(15, 63, 66) 1px solid;
+    background-color: rgb(15, 63, 66);
+}
+.contact .datos .card-title {
+    color: #275E63;
+    font-size: 18px;
+}
+.contact .datos .card-text {
+    font-size: 16px;
+}
+.contact iframe {
+    width: 500px;
+}
+/*----------------------------------------------------------------------------------*/
+/* ESTILOS MOBILE */
+@media only screen and (max-width: 600px){
+    header {
+        padding: 0 15px;
+    }
+    footer .copy {
+        margin-top: 30px;
+    }
+    /*Error page*/
+    .error-page {
+        padding: 25px;
+    }
+    .error-page h3 {
+        font-size: 48px;
+    }
+    .error-page h4 {
+        font-size: 18px;
+    }
+    .error-page button {
+        width: 80%;
+    }
+    /*Home*/
+    .welcome .carousel-inner img {
+        height: 60vh;
+    }
+    .welcome .carousel-caption h1 {
+        text-align: center;
+    }
+    .welcome .carousel-caption h5 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .categories {
+        padding: 20px;
+    }
+    .categories .col {
+        margin-bottom: 10px;
+    }
+    .destacados {
+        padding: 0;
+    }
+    .destacados .custom-carousel {
+        display: none;
+    }
+    .destacados .custom-carousel-mobile {
+        display: block;
+        width: 100%;
+    }
+    .destacados .btn-outline-primary {
+        margin-top: 30px;
+    }
+    .about {
+        height: 170vh;
+    }
+    .about img {
+        width: 100%;
+    }
+    .services {
+        padding: 20px;
+    }
+    .services img {
+        height: 15vh;
+        margin-bottom: 20px;
+    }
+    .newsletter .card img{
+        height: 350px;
+    }
+    .newsletter .card-img-overlay {
+        padding: 5vh;
+    }
+    .newsletter .btn-outline-secondary {
+        width: auto;
+    }
+    /*Login*/
+    .form-register .btn-primary {
+        width: 100%;
+    }
+    .login button {
+        width: 100%;
+    }
+    /*Profile*/
+    .profile {
+        padding: 25px;
+    }
+    .profile .card {
+        width: 80vw;
+    }
+    .profile .btn-save {
+        width: 100%;
+    }
+    .profile .btn-outline-secondary {
+        width: 100%;
+    }
+    /*Catalogo*/
+    .catalogo .cat {
+        display: none;
+    }
+    .catalogo .col-md-9 {
+        padding-left: 0;
+    }
+    .catalogo .card {
+        width: auto;
+    }
+    /* Producto*/
+    .product {
+        padding: 25px;
+    }
+    .product .btn-wrap {
+        margin-bottom: 10px;
+    }
+    .product h2 {
+        font-size: 38px;
+    }
+    .product .btn {
+        width: 100%;
+    }
+    /*Contact*/
+    .contact .btn-primary {
+        width: 100%;
+    }
+    .contact iframe {
+        width: 100%;
+    }
+}
